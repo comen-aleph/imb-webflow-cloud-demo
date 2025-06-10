@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+  .notification-container {
+    width: 100%;
+  }
+}
+
+.notification-body {
+  display: flex;
+  padding: 23px 21px;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  border-radius: 8px;
+
+  background-color: hsla(180, 100.00%, 27.65%, 1.00);
+}
+
+.notification-body-icon {
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .image-3 {
+    border-radius: 0px;
+  }
+}
+
+.the-link-in-the-sms-will-remain-active-for-the-next-72-hours {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: 'Work Sans', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+}

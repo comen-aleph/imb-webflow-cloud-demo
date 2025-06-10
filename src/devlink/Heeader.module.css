@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 18px 16px;
+  }
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container-2 {
+    display: inline-block;
+  }
+}
+
+.header-logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .header-logo {
+    border-radius: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-logo {
+    display: block;
+    overflow: visible;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+
+    border-radius: 0px;
+
+    text-decoration: none;
+
+    vertical-align: baseline;
+  }
+}
